@@ -1,27 +1,29 @@
 public class Main {
     public static void main(String[] args) throws MyException {
-        try{
+        try {
             System.out.println("try block");
-           throw new MyException("custom exception");
-        }catch(MyException e){
-           System.out.println("catch block");
+            throw new MyException("custom exception");
+        } catch (MyException e) {
+            System.out.println("catch block");
             System.out.println(e);
-        }
-        finally {
+        } finally {
             System.out.println("finally block");
         }
 
-TestAll test = new TestAll();
-try {
-    test.Autsch();
-}catch(MyException e){
-    System.out.println(e);
-}finally{
-    test.toString();
-}
+        TestAll test = new TestAll();
+        try {
+            test.Autsch();
+        } catch (MyException e) {
+            System.out.println(e);
+        } finally {
+            test.toString();
+        }
 
-       // Object o = null;
-
-
+        Object o = null;
+        try {
+            o.toString(); //wirft NullPointerException
+        } catch (NullPointerException e) {
+            System.out.println(e);
+        }
     }
 }

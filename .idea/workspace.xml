@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1aa4f2c1-d0ee-49ed-8506-c35cdb73b087" name="Changes" comment="3rd step off.ac.at/intern/wiki/doku.php?id=el-it:programmiersprachen:java:exercises:410-java-exceptions&amp;s[]=bruch completed" />
+    <list default="true" id="1aa4f2c1-d0ee-49ed-8506-c35cdb73b087" name="Changes" comment="3rd step off.ac.at/intern/wiki/doku.php?id=el-it:programmiersprachen:java:exercises:410-java-exceptions&amp;s[]=bruch completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +63,7 @@
       <updated>1667860883282</updated>
       <workItem from="1667860884713" duration="2503000" />
       <workItem from="1667937898882" duration="4494000" />
+      <workItem from="1668071832209" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="3rd step off http://www.htl-steyr.ac.at/intern/wiki/doku.php?id=el-it:programmiersprachen:java:exercises:410-java-exceptions&amp;s[]=bruch completed">
       <created>1667867802746</created>

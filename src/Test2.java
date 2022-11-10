@@ -12,15 +12,7 @@ throw new MyException("custom exception");
         }
     }
     public static void c() throws MyException, MySecondException, MyThirdException{
-        try{
-
 
         throw new MyException("e 1");
-        throw new MySecondException("e 2");
-        throw new MyThirdException("e 3");
-        }
-        catch(MyException | MySecondException | MyThirdException e){
-            System.out.println(e.getMessage());
-        }
     }
 }
